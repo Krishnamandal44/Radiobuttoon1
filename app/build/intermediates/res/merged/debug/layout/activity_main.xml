@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+<RadioGroup 
+    android:id="@+id/rgGender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RadioButton
+        android:id="@+id/rdMale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MALE" />
+
+    <RadioButton
+        android:id="@+id/rdFale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FEMALE" />
+
+    <Button
+        android:id="@+id/btShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHOW" />
+    
+    
+
+</RadioGroup>
+</LinearLayout>
